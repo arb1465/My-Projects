@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: bisque; */
+    background-image: url('currency_image.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    background-color: rgb(246, 229, 218);
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 40vh;
+    border: 1px solid black;
+}
+
+p{
+    font-size: 18px;
+}
+
+form{
+    margin: 2rem 0 1rem;
+}
+
+form select, button, input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+}
+
+form input{
+    margin-top: 7px;
+    border: 2px solid lightgray;
+    font-size: 1.2rem;
+    height: 3rem;
+    padding-left: 0.4rem;
+}
+
+.dropDown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:1.5rem;
+}
+
+.select-container img{
+    max-width: 2rem;
+}
+
+.dropDown i{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.select-container{
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    width: 6rem;
+    border: 2px solid lightgray;
+    /* background-color: red; */
+}
+
+.msg{
+    margin: 2rem 0 2rem 0;
+}
+
+form button{
+    height: 3rem;
+    background-color: violet;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
